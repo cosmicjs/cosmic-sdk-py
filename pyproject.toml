@@ -1,0 +1,21 @@
+[project]
+name = "cosmicjs"
+version = "0.1.0"
+description = "Python client for the Cosmic CMS REST API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Cosmic" }]
+keywords = ["cosmic", "cms", "headless"]
+
+[project.urls]
+Homepage = "https://www.cosmicjs.com/docs/how-to/python"
+Documentation = "https://www.cosmicjs.com/docs"
+Source = "https://github.com/cosmicjs/cosmic-sdk-py"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
