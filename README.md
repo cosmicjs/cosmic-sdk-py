@@ -1,4 +1,4 @@
-# cosmicjs
+# Cosmic Python SDK
 
 Python client for the [Cosmic](https://www.cosmicjs.com) content API. It wraps object reads and writes on `https://api.cosmicjs.com/v3`. There is no dependency beyond the Python standard library.
 
